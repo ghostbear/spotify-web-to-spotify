@@ -1,0 +1,24 @@
+{
+  "name": "spotify-web-to-spotify",
+  "version": "0.0.1",
+  "description": "A Chrome extension to redirect Spotify Web links to the Spotify desktop application",
+  "main": "background.js",
+  "scripts": {
+    "lint": "eslint --ext .js ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ghostbear"
+  },
+  "keywords": [
+    "spotify-web",
+    "spotify",
+    "chrome",
+    "extension"
+  ],
+  "author": "Andreas E. (ghostbear)",
+  "license": "MPL-2.0",
+  "devDependencies": {
+    "eslint": "^8.1.0"
+  }
+}

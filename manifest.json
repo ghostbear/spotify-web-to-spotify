@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    "name": "Spotify Web to Spotify",
+    "description": "Extension to redirect Spotify Web links to the Spotify desktop application",
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": true
+    },
+    "permissions": [
+        "webRequest",
+        "*://open.spotify.com/*",
+        "*://www.open.spotify.com/*",
+        "webRequestBlocking"
+    ]
+}
